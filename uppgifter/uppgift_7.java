@@ -7,7 +7,7 @@
  *
  * @author Frank
  */
-public class uppgift_3 {
+public class uppgift_7 {
 
     /**
      * @param args the command line arguments
