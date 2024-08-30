@@ -15,8 +15,8 @@ public class NewJavaFile{
             sum2 += i;
         }
         // utskrift av summorna
-        System.out.println("The sum of arry1 is " + sum1 + ".");
-        System.out.println("The sum of arry2 is " + sum2 + ".");
+        System.out.println("The sum of array1 is " + sum1 + ".");
+        System.out.println("The sum of array2 is " + sum2 + ".");
 
         //division med sum1 och sum2
         System.out.println("The division between sum1 and sum2 is " + ((double) sum1 / sum2) + ".");
@@ -25,8 +25,5 @@ public class NewJavaFile{
 /*
 Bonus:  
 Ta bort den första sifrran från Array1 och den sista siffran från Array2 
-skriv ut svaret  
-ta en bild av utskriften 
-spara med uppgiften i en mapp.
-
+skriv ut svaret   
 */
