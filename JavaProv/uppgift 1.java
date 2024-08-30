@@ -1,18 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Other/File.java to edit this template
- */
-
-/**
- *
- * @author Frank
- */
-public class provuppgift_1 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        // TODO code application logic here
+public class newJavaFile{
+    
+    public static void main(String args[]){
+        
+        //deklaration av variabler
+        int nummer1 = 5;
+        int nummer2 = 10;
+        int nummer3 = 25;
+        int nummer4 = 75;
+        int nummer5 = 125;
+        
+        //matematik med variabler
+        System.out.println(nummer1 + nummer5);
+        System.out.println(nummer4 - nummer2);
+        System.out.println(nummer3 / nummer1);
+        System.out.println(nummer5 * nummer4);
     }
 }

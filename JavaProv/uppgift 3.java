@@ -1,18 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Other/File.java to edit this template
- */
-
-/**
- *
- * @author Frank
- */
-public class provuppgift_3 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        // TODO code application logic here
+public class Main {
+    //(hit ska komma ett mellanslag för tydlighet)
+    public static void main(String[] args) {
+        //(hit ska komma ett mellanslag för tydlighet)
+        for (int i = 0; i < 5; i++){ // inte "i <= 5", och inte heller "i+"
+            System.out.println(i); // inte (Number: " +1);
+        }
     }
 }
