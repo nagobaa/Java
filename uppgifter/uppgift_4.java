@@ -1,18 +1,28 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Other/File.java to edit this template
- */
+Mål:
+if-else-satser 
+ett program: ett givet heltal är udda eller jämnt.
+Deklarera en Int variabel var 
+programmet avgör om talet är udda eller jämnt med if-else. 
+Programmet ska skriva ut om siffran är udda eller jämn.
 
-/**
- *
- * @author Frank
- */
-public class uppgift_4 {
+*/
+import java.util.Scanner; //detta är en ny rad
 
-    /**
-     * @param args the command line arguments
-     */
+public class NewJavaFile {
+        
     public static void main(String args[]) {
-        // TODO code application logic here
+        
+        Scanner reader = new Scanner(System.in); //detta är en ny rad
+      
+        System.out.print("Please give a number: "); //tillägg av ":" gör detta till en inmatning?
+        int inmatningsvarde = reader.nextInt(); //detta är en ny rad
+                
+        if (inmatningsvarde % 2 == 0){ //är jämt
+            System.out.println("Number " + inmatningsvarde + " is even");
+        }else{
+            System.out.println("Number " + inmatningsvarde + " is uneven");
+        }
     }
 }
+

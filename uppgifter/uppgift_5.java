@@ -1,18 +1,25 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Other/File.java to edit this template
- */
-
-/**
- *
- * @author Frank
- */
-public class uppgift_5 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        // TODO code application logic here
-    }
+public class NewJavaFile{
+    
+    public static void main(String args[]){
+        
+        int ElevensPoang = 50;
+        
+        if (ElevensPoang >= 90){
+            System.out.println("The grade of the student is 5");
+        } else if(ElevensPoang >= 80){
+            System.out.println("The grade of the student is 4");
+        } else if (ElevensPoang >= 70){
+            System.out.println("The grade of the student is 3");
+        } else if (ElevensPoang >= 60){
+            System.out.println("The grade of the student is 2");    
+        } else if (ElevensPoang >= 25){
+            System.out.println("The grade of the student is 1");
+        } else if (ElevensPoang >= 0){
+            System.out.println("The grade of the student is 0");
+        } else {
+            System.out.println("Something went wrong.");
+        }
+    }                
 }
+    
+

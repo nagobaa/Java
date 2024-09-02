@@ -1,18 +1,12 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Other/File.java to edit this template
- */
+Mål: öva på att använda boolean-variabeln 
+genom att simulera tillståndet för en strömbrytare.
 
-/**
- *
- * @author Frank
- */
-public class uppgift_6 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        // TODO code application logic here
-    }
-}
+simulerar tillståndet för en ljusströmbrytare.
+
+Använd en Boolean variabel 
+för att representera om lampan är på eller av.
+Använd if-else 
+för att skriva ut om lampan är på eller av.
+*/
