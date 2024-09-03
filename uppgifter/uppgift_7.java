@@ -13,20 +13,22 @@ public class NewJavaFile {
         
         //utskrift av tabellen (taulukko, array)
         for (int i: array1){
-            System.out.println(i + " ");
+            System.out.print(i + " ");
         }
+        
+        System.out.println(" ");
         
         //detta är en "endimensionell" tabell
         System.out.println(Arrays.toString(array1));
-        //detta skriver ut in lista (?)
-        System.out.println(Arrays.asList(array1)); //"
-        //detta är en "mångdimensionell" tabell men verkar inte fungera här 
-        System.out.println(Arrays.deepToString(array1));
+        
         
         //utskrift av det första och sista värdet av tabellen (taulukko, array)
-        // System.out.println(array[0, 4]);
-        
-                
-        //
+        System.out.println("The first number in the array1 is " + array1 [0]);
+        System.out.println("The second number in the array1 is " + array1 [4]);
     }
 }
+
+
+
+
+
